@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HW-Week04_Day02_UserInterface</string>
+    <string name="instagram">Instagram</string>
+    <string name="descreption">Sign up to see photos and videos rom your friends</string>
+    <string name="log_in_Button">Log in</string>
+    <string name="mobile_number_or_email">Mobile Number or Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="privacy">By signing up you agree to the Terms and Privacy policy</string>
+    <string name="orText">-------------- OR --------------</string>
+    <string name="phoneOrEmail">Phone number, Username or Email</string>
+    <string name="forgat_password">Forgat Password ?</string>
+    <string name="log_in_with_facebook">Log In With facebook ?</string>
+</resources>

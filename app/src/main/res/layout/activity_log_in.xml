@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    app:barrierMargin="20dp"
+    app:cardBackgroundColor="#FFFAF0"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="#F8F8FF"
+        android:padding="16dp">
+
+
+
+        <TextView
+            android:id="@+id/instagramLogoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/instagram"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="16dp" />
+
+
+
+        <EditText
+            android:id="@+id/phoneOrEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:hint="@string/phoneOrEmail"
+            app:layout_constraintTop_toBottomOf="@id/instagramLogoText" />
+
+        <EditText
+            android:id="@+id/logInPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:hint="@string/password"
+            app:layout_constraintTop_toBottomOf="@id/phoneOrEmail" />
+
+        <TextView
+            android:id="@+id/forgatPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="end"
+            android:text="@string/forgat_password"
+            android:textColor="#1E90FF"
+            app:layout_constraintTop_toBottomOf="@id/logInPassword" />
+
+        <Button
+            android:id="@+id/logInButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="#1E90FF"
+            android:text="@string/log_in_Button"
+            app:layout_constraintTop_toBottomOf="@id/forgatPassword" />
+
+        <TextView
+            android:id="@+id/orText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/orText"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/logInButton2"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <LinearLayout
+            android:id="@+id/linerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/orText">
+
+            <ImageView
+                android:layout_width="30sp"
+                android:layout_height="30dp"
+                android:gravity="start"
+                android:src="@drawable/facebooklogo" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="30sp"
+                android:gravity="end"
+                android:text="@string/log_in_with_facebook"
+                android:textColor="#1E90FF" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/loginDescreption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/descreption"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/linerContainer"
+            tools:layout_editor_absoluteX="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
