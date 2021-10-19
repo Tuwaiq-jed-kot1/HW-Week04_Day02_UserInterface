@@ -19,14 +19,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         btnLogin=findViewById(R.id.id_login)
         btnSnignUp=findViewById(R.id.id_signUp)
         editPassword=findViewById(R.id.editTextTextPassword)
         editUserName=findViewById(R.id.editTextUser)
 
         login_facebook=findViewById(R.id.id_login_facebook)
-
         btnLogin.setOnClickListener {
 
             if (editPassword.text.isNotEmpty() && editUserName.text.isNotEmpty()){
