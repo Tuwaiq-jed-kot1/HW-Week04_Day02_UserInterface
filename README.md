@@ -7,10 +7,10 @@ This assignment is for fun and learns some tools in the XML layout. As shown bel
 >Note: You must use `ConstraintLayout` for both screens that you will design them.
 
 ### `Sign-Up` screen
-![Sign-Up](signin.jpeg)
+
 
 ### `Logn-In` screen
-![Logn-In](login.jpg)
+
 
 
 
