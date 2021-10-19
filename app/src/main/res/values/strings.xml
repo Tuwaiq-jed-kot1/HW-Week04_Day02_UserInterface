@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InstagramUI</string>
+        <string name="tv1">Sign up to see photos and videos from your friends.</string>
+        <string name="log_in">Log in</string>
+        <string name="or">ــــــــــــــــــــــــــــــــ OR ــــــــــــــــــــــــــــــــ</string>
+        <string name="email_hint">Mobile Number or Email</string>
+        <string name="full_name">Full Name</string>
+        <string name="username">Username</string>
+        <string name="password">Password</string>
+        <string name="sign_up">Sign up</string>
+        <string name="phone_number">Phone number, username or email</string>
+        <string name="forgot_password">Forgot password?</string>
+        <string name="log_in_with_facebook">Log In With Facebook</string>
+        <string name="don_t_have">Don\'t have an account?</string>
+</resources>

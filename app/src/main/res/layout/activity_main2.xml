@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="407dp"
+        android:layout_height="168dp"
+        android:src="@drawable/insta"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="367dp"
+        android:layout_height="49dp"
+        android:background="@color/lightGray"
+        android:hint="@string/phone_number"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="367dp"
+        android:layout_height="49dp"
+        android:background="@color/lightGray"
+        android:hint="@string/password"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="160dp"
+        android:layout_height="44dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/forgot_password"
+        android:textColor="@color/blue"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <Button
+        android:id="@+id/btnSecond1"
+        android:layout_width="367dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/skyBlue"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/log_in"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="363dp"
+        android:layout_height="53dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/or"
+        android:textColor="@color/gray"
+        android:textSize="23sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="233dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/log_in_with_facebook"
+        android:textColor="@color/blue"
+        android:textSize="23sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="33dp"
+        android:layout_height="34dp"
+        android:src="@drawable/iconface"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="546dp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="243dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/don_t_have"
+        android:textColor="@color/medGray"
+        android:textSize="21sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+    <Button
+        android:id="@+id/btnSecond2"
+        android:layout_width="123dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/sign_up"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
