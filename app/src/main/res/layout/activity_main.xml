@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="83dp"
+        android:src="@drawable/instgram_icon"
+        app:layout_constraintBottom_toTopOf="@+id/instagram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        />
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="271dp"
+        android:layout_height="95dp"
+        android:src="@drawable/instagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <EditText
+        android:id="@+id/login_phone_username_id"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rect"
+        android:hint="Phone number,username or email"
+        android:textSize="15dp"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/login_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instagram" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rect"
+        android:hint="Password"
+        android:textSize="15dp"
+        android:paddingStart="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_phone_username_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Forgot password?"
+        android:textColor="#009bec"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password" />
+
+    <Button
+        android:id="@+id/login_btnlogin"
+        android:layout_width="326dp"
+        android:layout_height="59dp"
+        android:text="Log in"
+        android:textAllCaps="false"
+        app:backgroundTint="#5accfd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <View
+
+        android:id="@+id/view2"
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/orText"
+        android:background="#c0c0c0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/login_btnlogin"
+        app:layout_constraintTop_toBottomOf="@+id/login_btnlogin"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/orText"
+        android:background="#c0c0c0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/orText"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="@+id/login_btnlogin"
+        app:layout_constraintTop_toBottomOf="@+id/login_btnlogin"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/orText"
+        android:layout_width="19dp"
+        android:layout_height="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="OR"
+        android:textColor="#c0c0c0"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/login_btnlogin"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/login_btnlogin"
+        app:layout_constraintTop_toBottomOf="@+id/login_btnlogin"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="16dp"
+        android:src="@drawable/facebook_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/longin_faceBook_login"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <TextView
+        android:id="@+id/longin_faceBook_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In With Facebook"
+        android:textColor="#0096f0"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orText"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <View
+        android:layout_width="330dp"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/orText"
+        android:background="#c0c0c0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_btnlogin"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="don't have an account?"
+
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_btnlogin"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <TextView
+        android:id="@+id/login_signupPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up."
+        android:textColor="#0096f0"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/login_btnlogin"
+        app:layout_constraintVertical_bias="0.816" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
