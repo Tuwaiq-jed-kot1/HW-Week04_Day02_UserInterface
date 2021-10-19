@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/HW-Week04_Day02_UserInterface.iml" filepath="$PROJECT_DIR$/.idea/HW-Week04_Day02_UserInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LayoutApp.iml" filepath="$PROJECT_DIR$/.idea/modules/LayoutApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LayoutApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LayoutApp.app.iml" />
     </modules>
   </component>
 </project>
