@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HW-Week04_Day02_UserInterface</string>
+    <string name="app_name">Instagram</string>
     <string name="instagram">Instagram</string>
     <string name="instagram_welcome_message">Sign up to see photo and videos from your friends.</string>
     <string name="log_in">Log in</string>
