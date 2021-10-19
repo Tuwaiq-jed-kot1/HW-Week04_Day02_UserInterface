@@ -31,7 +31,7 @@
         android:hint="Instageram"
         android:textColor="@color/black"
         android:textSize="35dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextUser"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,11 +39,11 @@
         app:layout_constraintVertical_bias="0.396" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Name"
+        android:hint="User Name"
         android:inputType="textPersonName"
         android:textSize="25dp"
         android:background="#EFEDED"
@@ -114,7 +114,7 @@
         app:layout_constraintVertical_bias="0.757" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/id_login_facebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
