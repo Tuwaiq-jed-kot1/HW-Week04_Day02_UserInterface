@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke
+        android:width="2dip"
+        android:dashGap="@dimen/cardview_compat_inset_shadow"
+        android:color="#979494" />
+    <corners android:radius="10dp" />
+</shape>
