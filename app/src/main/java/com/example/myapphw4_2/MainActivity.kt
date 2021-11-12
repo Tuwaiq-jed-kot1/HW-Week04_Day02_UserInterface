@@ -1,27 +1,22 @@
 package com.example.myapphw4_2
 
+
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val signUp:TextView = findViewById(R.id.textView9)
 
-        btnLogin.setOnClickListener{
-            Toast.makeText(this,"Clicked", Toast.LENGTH_LONG).show()
-            if(edUsername.text.trim().isNotEmpty() || edPassword.text.trim().isNotEmpty()){
-                //
-                Toast.makeText(this, "Inpt provid", Toast.LENGTH_LONG).show()
+        signUp.setOnClickListener {
+            val i = Intent(this, RegisterActivity::class.java)
+            startActivity(i)
+        }
 
-            }else{
-                Toast.makeText(this, "Inpt required", Toast.LENGTH_LONG).show()
-            }
-        }
-        tvRegister.setOnClickListener{
-         val   intent= Intent(this, RegisterActivity::class.java);
-            startActivitiey(intent)
-        }
-    }}
+    }
+}
